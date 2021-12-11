@@ -16,7 +16,7 @@ jobs:
         node-version: ${{ matrix.node_version }}
     - name: Log node version
       run: node -v
-  node-version:
+  node-version2:
     runs-on: ubuntu-latest
     steps:
     - name: Log node version
